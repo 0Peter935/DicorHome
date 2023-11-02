@@ -1,0 +1,62 @@
+.cont-serv {
+    margin: 3%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cont-serv img {
+    height: 500px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px rgb(255, 255, 255);
+}
+
+/* contenerdor de contacto */
+.serv {
+    width: 90%;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(109, 17, 17, 0.897);
+    background: white;
+}
+
+.serv p {
+    font-weight: bold;
+}
+
+.serv input, .serv textarea {
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    border-color: rgba(0, 0, 0, 0.373);
+    color: white;
+    background-color: rgba(187, 50, 50, 0.897);
+}
+
+.serv input::placeholder , .serv textarea::placeholder {
+    color: white;
+}
+
+.serv textarea {
+    height: 150px;
+}
+
+.serv button {
+    right: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    border-color: white;
+    background: rgb(180, 33, 53);
+}
+
+.serv button:hover {
+    color: rgb(180, 33, 53);
+    border-color: rgb(180, 33, 53);
+    background: white;
+}
